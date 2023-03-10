@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/869299c5af.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background-image: url('nature.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 650px;
+            overflow: hidden;
+            font-family:Roboto Slab;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+        table {
+            position: relative;
+            top: 160px;
+            background-image: linear-gradient(to bottom right,yellowgreen,lightgreen);
+           /* background-color:  rgb(175, 139, 90);*/
+            box-shadow: 5px 8px 40px black;
+            width: 245px;
+            height: 2.4in;
+            text-align: center;
+            padding: 15px;
+            border: 1px outset black;
+            border-radius: 10px;
+        }
+        .btn{
+            background-color: black;
+            height: 2.5em;
+            width: 40%;
+            border-radius: 5px;
+            color: floralwhite;
+            border: none;
+        }
+        .btn:hover{
+            background-color: skyblue;
+            color: black;
+            text-transform: uppercase;
+            border: 1px solid black;
+        }
+    </style>
+    <title>Login form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form method="get" autocomplete="off" target="_top" action="p3.html">
+            <table class="table">
+                <tr>
+                    <th title="Login here" role="form" style="font-size: x-large; text-shadow: 5px 8px 30px rgba(0,0,0,0.45) ;
+                    font-family: Arial, Helvetica, sans-serif; cursor: pointer;
+                    text-align: center; letter-spacing: 2px;
+                    "><i style="position: relative;top: -1px;" class="fa-solid fa-user"></i>&nbsp;Log in</th>
+                </tr>
+                <tr>
+                    <td><input required placeholder="Username" type="text"></td>
+                </tr>
+                <tr>
+                    <td><input placeholder="Passward" type="password"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit"  class="btn">Submit</button></td>
+                </tr>
+                <tr>
+                    <td style="position: relative;right: 20px; font-size: smaller;"><input type="checkbox">Remember me
+                        <a style="position: relative;left: 34px;" href="#">forgot password?</a>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <label style="font-size: small;"> don't have account</label>
+                    </td>
+                <tr>
+                    <td><a style="font-size: small;" href="practice13.html">create new account</a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+
+</html>
