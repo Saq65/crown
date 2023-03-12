@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Passward</title>
+    <style>
+        body{
+            background-image: url(Untitled\ design\ \(2\).png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 880px;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 200px;       
+            left: 35%;
+            height: 100px;
+            width: 400px;
+            background-color:lightgreen; 
+            border: 1px double black;  
+        }
+        input {
+            display: block;
+            width: 230px;
+        }
+
+        button {
+            display: block;
+            position: relative;
+            left: 35%;
+            height: 30px;
+            background-color: black;
+            color: white;
+            border-radius: 6px;
+        }
+        label{
+            background-image: linear-gradient(to bottom right,black,lightgreen);
+            font-size: larger;
+            padding: 4px 2px;
+            font-weight: lighter;
+            border-radius: 10px;
+            letter-spacing: 3px;
+            color: whitesmoke;
+            border:1px inset black;
+        }
+        @media screen and (max-width:480px) {
+            html,body{
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                scroll-behavior: smooth;
+            }
+            .container{
+                position: relative;
+                left: 19px;
+                width: 16rem;
+                top: 160px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+            <table>
+                <tr>
+                    <td><label>Forgot your Passward</label></td>
+                </tr>
+                <tr>
+                    <td><input placeholder="Enter your Mob no.& Email address...." type="text"> </td>
+                </tr>
+                <tr>
+                    <td><button onclick="alert('Thank you')" type="submit">Sumbit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
