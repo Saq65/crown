@@ -47,6 +47,7 @@ function Click(){
         return false;
     }else{
         document.getElementById('lname').style.border='2px solid darkgreen'
+document.getElementById('f2').style.visibility='hidden'
         document.getElementById('c2').innerHTML='<i class="fa-solid fa-check"></i>'
     }
     var a3=document.getElementById('uname').value;
@@ -55,6 +56,7 @@ function Click(){
         return false;
     }else{
         document.getElementById('uname').style.border='2px solid darkgreen'
+document.getElementById('f3').style.visibility='hidden'
         document.getElementById('c3').innerHTML='<i class="fa-solid fa-check"></i>'
     }
     var a4=document.getElementById('p').value;
@@ -63,6 +65,7 @@ function Click(){
         return false;
     }else{
         document.getElementById('p').style.border='2px solid darkgreen'
+document.getElementById('f4').style.visibility='hidden'
         document.getElementById('c4').innerHTML='<i class="fa-solid fa-check"></i>'
     }
     var a5=document.getElementById('cp').value;
@@ -84,6 +87,7 @@ function Click(){
      return true;
 }else{
     document.getElementById('c5').innerHTML='<i class="fa-solid fa-check"></i>'
+document.getElementById('f5').style.visibility='hidden'
 
 }
     
