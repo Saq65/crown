@@ -78,16 +78,17 @@ document.getElementById('f4').style.visibility='hidden'
         document.getElementById('p').style.border='2px inset red';
         document.getElementById('cp').style.border='2px solid red';
     return false;
-}else if(a4==a5){
+}else{
+    document.getElementById('c5').innerHTML='<i class="fa-solid fa-check"></i>'
+document.getElementById('f5').style.visibility='hidden'
+
+}
+if(a4==a5){
      document.getElementById('f5').innerHTML='passward is matching';
      document.getElementById('f5').style.color='green';
      document.getElementById('cp').style.border='2px inset forestgreen';
      document.getElementById('p').style.border='2px outset forestgreen';
      return true;
-}else{
-    document.getElementById('c5').innerHTML='<i class="fa-solid fa-check"></i>'
-document.getElementById('f5').style.visibility='hidden'
-
 }
     
 }
