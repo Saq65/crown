@@ -19,6 +19,9 @@ function Click(){
         document.getElementById('f1').innerHTML='only alphabet allowed';
         return false;
     }
+else{
+document.getElementById('f1').innerHTML='valid';
+}
     var a2=document.getElementById('lname').value;
     if(a2==""){
         document.getElementById('f2').innerHTML='Please fill this input';
