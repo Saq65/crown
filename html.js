@@ -21,7 +21,7 @@ function Click(){
     }
 else{
 document.getElementById('f1').innerHTML='valid';
-document.getElementById('a1').style.bordercolor='green';
+document.getElementById('a1').style.borderColor='green';
 }
     var a2=document.getElementById('lname').value;
     if(a2==""){
