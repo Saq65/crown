@@ -24,7 +24,8 @@ function Click(){
         return false;
     }else{
         document.getElementById('fname').style.border='2px solid darkgreen'
-        document.getElementById('c1').innerHTML='<i class="fa-solid fa-check"></i>'
+        document.getElementById('f1').style.visibility='hidden'
+ document.getElementById('c1').innerHTML='<i class="fa-solid fa-check"></i>'
     }
     var a2=document.getElementById('lname').value;
     if(a2==""){
