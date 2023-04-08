@@ -48,7 +48,7 @@ function Click(){
         document.getElementById('f4').innerHTML='Please create passward';
         return false;
     }
-    if(a4!==a5){
+    if(a4!=a5){
         document.getElementById('f5').innerHTML='passward not matching'
         return false;
     }
