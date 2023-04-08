@@ -72,12 +72,7 @@ document.getElementById('f4').style.visibility='hidden'
     if(a5==""){
         document.getElementById('f5').innerHTML='Please fill this input';
         return false;
-    }else{
-    document.getElementById('c5').innerHTML='<i class="fa-solid fa-check"></i>'
-document.getElementById('f5').style.visibility='hidden'
-
-}
-    if(a4 != a5)
+    }else if(a4 != a5)
 {
     document.getElementById('f5').innerHTML='passward not matching'; 
         document.getElementById('p').style.border='2px inset red';
@@ -89,6 +84,10 @@ document.getElementById('f5').style.visibility='hidden'
      document.getElementById('cp').style.border='2px inset forestgreen';
      document.getElementById('p').style.border='2px outset forestgreen';
      return true;
+}else{
+    document.getElementById('c5').innerHTML='<i class="fa-solid fa-check"></i>'
+document.getElementById('f5').style.visibility='hidden'
+
 }
     
 }
