@@ -56,7 +56,7 @@ document.getElementById('f2').style.visibility='hidden'
         return false;
     }else{
         document.getElementById('uname').style.border='2px solid darkgreen'
-    //document.getElementById('f3').style.visibility='hidden'
+     document.getElementById('f3').style.visibility='hidden'
         document.getElementById('c3').innerHTML='<i class="fa-solid fa-check"></i>'
     }
     var a4=document.getElementById('p').value;
