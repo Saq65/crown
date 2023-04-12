@@ -30,10 +30,10 @@ table {
     background-image: linear-gradient(to bottom right, #7AA9D1,#9BC8FF);
     /* background-color:  rgb(175, 139, 90);*/
     box-shadow: 5px 8px 40px black;
-    width: 245px;
+    width: 250px;
     height: 2.4in;
     text-align: center;
-    padding: 11.4px;
+    padding: 11px;
     border: 1px outset black;
     border-radius: 10px;
 }
