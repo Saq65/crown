@@ -74,7 +74,11 @@ function Click() {
         document.getElementById('f4').style.visibility = 'visible'
         return false;
     }else if(a4.length<4){
-        document.getElementById('f4').innerHTML = 'minimum 4 charcacter required';
+        document.getElementById('f4').innerHTML = 'minimum 4 charcacter allowed';
+        document.getElementById('p').style.border = '2px inset red';
+        document.getElementById('f4').style.visibility = 'visible'
+    }else if(a4.length>8){
+        document.getElementById('f4').innerHTML = 'maximum 8 charcacter allowed';
         document.getElementById('p').style.border = '2px inset red';
         document.getElementById('f4').style.visibility = 'visible'
     }
